@@ -1,6 +1,6 @@
 import numpy as np
 
-T = 100000  # T个客人
+T = 10000  # T个客人
 N = 10  # N道菜
 
 true_rewards = np.random.uniform(low=0, high=1, size=N)  # N道菜好吃的概率
